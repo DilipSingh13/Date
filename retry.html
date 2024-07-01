@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Ek bar phir soch lo!!!</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/bJj0gWbX/IMG-3458.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="yesPage()">Yes</button>
+        <button class="btn" id="noButton" onclick="nextPage()">No</button>
+
+        <script>
+          function yesPage() {
+            window.location.href = "yes.html";
+          }
+          function nextPage() {
+            window.location.href = "thinkAbout-it.html";
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

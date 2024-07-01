@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Kya tum hamesha ke lye meri hona chahogi ?</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/c1v1TCxS/IMG-3457.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="yesPage()">Yes</button>
+        <button class="btn" id="noButton" onclick="nextPage()">No</button>
+
+        <script>
+          function yesPage() {
+            window.location.href = "yes.html";
+          }
+          function nextPage() {
+            window.location.href = "retry.html";
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
